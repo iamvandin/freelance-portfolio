@@ -2,14 +2,30 @@
         LINUX SERVER MONITOR
 ========================================
 
-Hostname       : Vandins-MacBook-Air.local
-Current User   : vandin
-Uptime         : 
-Date           : Mon Sep 21 17:05:43 +07 2026
+Hostname       : devops-QEMU-Virtual-Machine
+Current User   : devops
+Uptime         : up 9 minutes
+Date           : Wed Sep 23 13:50:29 +07 2026
 
-CPU Usage      : % [OK]
-Memory Usage   : % [OK]
-Disk Usage     : 58% [OK]
+CPU Usage      : 2% [OK]
+Memory Usage   : 21% [OK]
+Disk Usage     : 40% [OK]
+
+Overall Status : HEALTHY
+
+========================================
+========================================
+        LINUX SERVER MONITOR
+========================================
+
+Hostname       : devops-QEMU-Virtual-Machine
+Current User   : devops
+Uptime         : up 1 hour, 8 minutes
+Date           : Wed Sep 23 14:50:14 +07 2026
+
+CPU Usage      : 2% [OK]
+Memory Usage   : 21% [OK]
+Disk Usage     : 40% [OK]
 
 Overall Status : HEALTHY
 

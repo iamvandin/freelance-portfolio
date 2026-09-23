@@ -1,0 +1,4 @@
+[2026-09-23 15:49:14] ALERT: CPU usage is 4% (limit: 1%)
+[2026-09-23 15:49:14] ALERT: Memory usage is 21% (limit: 1%)
+[2026-09-23 15:49:14] ALERT: Disk usage is 40% (limit: 1%)
+[2026-09-23 15:50:39] ALERT: CPU usage is 100% (limit: 80%)

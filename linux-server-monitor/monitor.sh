@@ -49,6 +49,10 @@ check_status() {
     fi
 }
 
+echo "========================================"
+echo "Timestamp: $(date '+%Y-%m-%d %H:%M:%S')"
+echo "========================================"
+
 show_header
 show_system_info
 

@@ -46,3 +46,54 @@ Disk Usage     : 40% [OK]
 Overall Status : HEALTHY
 
 ========================================
+========================================
+        LINUX SERVER MONITOR
+========================================
+
+Hostname       : devops-QEMU-Virtual-Machine
+Current User   : devops
+Uptime         : up 1 hour, 16 minutes
+Date           : Wed Sep 23 14:57:45 +07 2026
+
+CPU Usage      : 4% [OK]
+Memory Usage   : 21% [OK]
+Disk Usage     : 40% [OK]
+
+Overall Status : HEALTHY
+
+========================================
+========================================
+        LINUX SERVER MONITOR
+========================================
+
+Hostname       : devops-QEMU-Virtual-Machine
+Current User   : devops
+Uptime         : up 1 hour, 23 minutes
+Date           : Wed Sep 23 15:05:01 +07 2026
+
+CPU Usage      : 2% [OK]
+Memory Usage   : 21% [OK]
+Disk Usage     : 40% [OK]
+
+Overall Status : HEALTHY
+
+========================================
+========================================
+        LINUX SERVER MONITOR
+========================================
+
+Hostname       : devops-QEMU-Virtual-Machine
+Current User   : devops
+Uptime         : up 1 hour, 28 minutes
+Date           : Wed Sep 23 15:10:01 +07 2026
+
+========================================
+Timestamp: 2026-09-23 15:10:01
+========================================
+CPU Usage      : 4% [OK]
+Memory Usage   : 21% [OK]
+Disk Usage     : 40% [OK]
+
+Overall Status : HEALTHY
+
+========================================

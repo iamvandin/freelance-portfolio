@@ -19,3 +19,55 @@ When a threshold is exceeded, an alert is written to:
 
 ```text
 logs/alerts.log
+
+## Alert States
+
+The monitoring tool uses three states:
+
+| State | Meaning | Exit Code |
+|---|---|---:|
+| OK | Normal operation | 0 |
+| WARNING | Resource requires attention | 1 |
+| CRITICAL | Serious resource issue | 2 |
+
+## Recovery Detection
+
+The tool stores the previous state of CPU, memory, and disk usage.
+
+It generates alerts when a resource changes state and reports when a previously unhealthy resource returns to `OK`.
+
+## Project Structure
+
+```text
+linux-server-monitor/
+├── monitor.sh
+├── README.md
+├── .gitignore
+├── logs/
+└── state/
+
+
+## Docker
+
+Build the image:
+
+```bash
+docker build -t linux-server-monitor:1.0 .
+
+
+Run the container:
+
+docker run --rm linux-server-monitor:1.0
+
+Run with persistent logs and state:
+
+docker run --rm \
+  -v "$(pwd)/logs:/app/logs" \
+  -v "$(pwd)/state:/app/state" \
+  linux-server-monitor:1.0
+
+Docker Compose
+
+Start the application:
+
+docker compose up --build

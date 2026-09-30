@@ -24,3 +24,16 @@ Overall Status : HEALTHY
 [2026-09-23 15:51:27] Overall Status: HEALTHY
 [2026-09-23 15:52:36] Overall Status: HEALTHY
 [2026-09-23 15:53:09] Overall Status: HEALTHY
+[2026-09-23 16:03:40] CPU=2% Memory=21% Disk=40% Status=OK
+[2026-09-23 16:04:30] CPU=2% Memory=21% Disk=40% Status=WARNING
+[2026-09-23 16:05:10] CPU=4% Memory=21% Disk=40% Status=CRITICAL
+[2026-09-23 16:06:30] CPU=4% Memory=21% Disk=40% Status=CRITICAL
+[2026-09-23 16:07:22] CPU=100% Memory=21% Disk=40% Status=CRITICAL
+[2026-09-23 16:08:07] CPU=4% Memory=21% Disk=40% Status=OK
+[2026-09-28 16:25:10] CPU=4% Memory=23% Disk=40% Status=OK
+[2026-09-28 16:25:51] CPU=4% Memory=23% Disk=40% Status=OK
+[2026-09-28 09:49:54] CPU=2% Memory=24% Disk=40% Status=OK
+[2026-09-28 09:56:00] CPU=4% Memory=25% Disk=40% Status=OK
+[2026-09-29 09:16:21] CPU=2% Memory=21% Disk=40% Status=OK
+[2026-09-29 09:17:37] CPU=2% Memory=21% Disk=40% Status=OK
+[2026-09-30 13:31:48] CPU=2% Memory=22% Disk=40% Status=OK
